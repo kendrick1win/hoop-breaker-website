@@ -1,0 +1,65 @@
+ul{
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ece9e9;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(38, 62, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(238, 65, 2);
+    color:  rgb(145, 205, 56);
+}
+header img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section > h1{
+    text-align: center;
+    color:  rgb(145, 205, 56);
+    background-color: rgb(252, 86, 26);
+    background-size: 100;
+}
+section > div{
+    width: 500px;
+    height: 570px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#home {
+    width: 580px;
+    height: 800px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid;
+    width: 250px;
+  }
+
+.right-align {
+    float: right;
+}
+
+.right-align a {
+    padding: 14px 16px;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}

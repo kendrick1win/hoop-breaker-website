@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Space Jam Hoop Breaker</title>
+        <link rel="stylesheet" href="css/my-style.css">
+        <script src="js/homeScript.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="home.html"><img src="assets/Space-Jam-Logo.png" 
+                    alt="Space Jam Image" width="100px"></a>
+            </div>
+            <ul>
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="login.html">Data Defense</a></li>
+            </ul>
+        </header>
+
+        <section>
+
+            <h1>Space Jam <br>Hoop Breaker Game</h1>
+            <div id="home">
+                <button onclick="startGame()">Start Game</button>
+                &nbsp;
+                <button onclick="endGame()">End Game</button>
+
+                <iframe src="dist1/index.html" frameborder="0" width="550px" height="700"></iframe>
+
+                <p>Play Music Below</p>
+                <audio controls autoplay>
+                    <source src="assets/gameAudio.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+        <section>
+            <h1>Rankings Table</h1>
+            <button onclick="showRankings()">Show Rankings</button>
+            &nbsp;
+            <button onclick="hideRankings()">Hide Rankings</button>
+            
+            <table id="rankingsTable" style="display: block;">
+                <tr>
+                    <th>Name</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Kobe Bryant</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td>Michael Jordan</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>Bugs Bunny</td>
+                    <td>62</td>
+                </tr>
+                <tr>
+                    <td>LeBron James</td>
+                    <td>61</td>
+                </tr>
+            </table>
+        </section>
+            
+    </body>
+</html>
